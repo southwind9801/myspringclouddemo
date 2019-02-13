@@ -35,7 +35,7 @@ public class StudentHandler {
         studentRepository.saveOrUpdate(student);
     }
 
-    @DeleteMapping("/deleteById/{id}")
+    @DeleteMapping("/delete/{id}")
     public void deleteById(@PathVariable("id") long id){
         studentRepository.deleteById(id);
     }
