@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>registrycenter</module>
-        <module>provider </module>
+        <module>provider</module>
     </modules>
 
     <!-- 引入 Spring Boot 的依赖 -->
