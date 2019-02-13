@@ -11,6 +11,7 @@
     <modules>
         <module>registrycenter</module>
         <module>provider</module>
+        <module>consumer</module>
     </modules>
 
     <!-- 引入 Spring Boot 的依赖 -->
