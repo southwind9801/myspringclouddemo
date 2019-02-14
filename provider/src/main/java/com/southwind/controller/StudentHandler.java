@@ -12,8 +12,16 @@ import java.util.Collection;
 @RestController
 public class StudentHandler {
 
+    @Value("${server.port}")
+    private String port;
+
     @Autowired
     private StudentRepository studentRepository;
+
+    @GetMapping("/index")
+    public String index(){
+        return "当前端口："+this.port;
+    }
 
     @GetMapping("/findAll")
     public Collection<Student> findAll(){
