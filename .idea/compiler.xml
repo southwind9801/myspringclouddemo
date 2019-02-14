@@ -7,17 +7,29 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="consumer" />
+        <module name="feign" />
+        <module name="gateway" />
+        <module name="hystrix" />
+        <module name="nativeconfigclient" />
+        <module name="nativeconfigserver" />
         <module name="provider" />
         <module name="registrycenter" />
+        <module name="ribbon" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="consumer" options="-parameters" />
+      <module name="feign" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="hystrix" options="-parameters" />
       <module name="myspringclouddemo" options="-parameters" />
+      <module name="nativeconfigclient" options="-parameters" />
+      <module name="nativeconfigserver" options="-parameters" />
       <module name="provider" options="-parameters" />
       <module name="registrycenter" options="-parameters" />
+      <module name="ribbon" options="-parameters" />
     </option>
   </component>
 </project>

@@ -3,7 +3,13 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nativeconfigclient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nativeconfigserver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/registrycenter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon" charset="UTF-8" />
   </component>
 </project>

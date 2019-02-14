@@ -12,6 +12,12 @@
         <module>registrycenter</module>
         <module>provider</module>
         <module>consumer</module>
+        <module>gateway</module>
+        <module>ribbon</module>
+        <module>feign</module>
+        <module>hystrix</module>
+        <module>nativeconfigserver</module>
+        <module>nativeconfigclient</module>
     </modules>
 
     <!-- 引入 Spring Boot 的依赖 -->
