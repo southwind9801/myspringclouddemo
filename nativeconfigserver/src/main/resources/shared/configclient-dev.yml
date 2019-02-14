@@ -1,0 +1,3 @@
+server:
+  port: 8070
+foo: foo version 1
