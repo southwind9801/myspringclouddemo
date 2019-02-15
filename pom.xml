@@ -19,6 +19,9 @@
         <module>nativeconfigserver</module>
         <module>nativeconfigclient</module>
         <module>configserver</module>
+        <module>configclient</module>
+        <module>zipkin</module>
+        <module>zipkinclient</module>
     </modules>
 
     <!-- 引入 Spring Boot 的依赖 -->
