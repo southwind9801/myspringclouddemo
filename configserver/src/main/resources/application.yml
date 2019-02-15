@@ -12,8 +12,8 @@ spring:
         git:
           uri: https://github.com/southwind9801/myspringclouddemo.git
           searchPaths: config
-          username: southwind9801
-          password: ning135729
+          username: root
+          password: root
       label: master
   rabbitmq:
     host: localhost
