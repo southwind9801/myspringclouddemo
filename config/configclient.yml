@@ -10,3 +10,4 @@ spring:
 management:
   security:
     enabled: false
+    ddd
