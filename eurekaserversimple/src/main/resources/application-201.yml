@@ -1,0 +1,17 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: eureka
+  profiles:
+    active: 201
+eureka:
+  client:
+    service-url:
+      defaultZone: http://hadoop1:8000/eureka/,http://hadoop3:8000/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    hostname: hadoop2
+  server:
+    enable-self-preservation: false
