@@ -22,6 +22,8 @@
         <module>configclient</module>
         <module>zipkin</module>
         <module>zipkinclient</module>
+        <module>eurekaserversimple</module>
+        <module>eurekaclientsimple</module>
     </modules>
 
     <!-- 引入 Spring Boot 的依赖 -->

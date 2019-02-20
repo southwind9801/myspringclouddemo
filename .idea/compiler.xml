@@ -9,6 +9,8 @@
         <module name="configclient" />
         <module name="configserver" />
         <module name="consumer" />
+        <module name="eurekaclientsimple" />
+        <module name="eurekaserversimple" />
         <module name="feign" />
         <module name="gateway" />
         <module name="hystrix" />
@@ -27,6 +29,8 @@
       <module name="configclient" options="-parameters" />
       <module name="configserver" options="-parameters" />
       <module name="consumer" options="-parameters" />
+      <module name="eurekaclientsimple" options="-parameters" />
+      <module name="eurekaserversimple" options="-parameters" />
       <module name="feign" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="hystrix" options="-parameters" />
