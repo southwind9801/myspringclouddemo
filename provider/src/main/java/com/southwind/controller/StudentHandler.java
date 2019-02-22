@@ -20,7 +20,7 @@ public class StudentHandler {
 
     @GetMapping("/index")
     public String index(){
-        return "当前端口：ddd"+this.port;
+        return "当前端口："+this.port;
     }
 
     @GetMapping("/findAll")
