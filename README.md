@@ -1,1 +1,1 @@
-「案例上手 Spring 微服务」课程配套代码。
+「Java大联盟」公众号 Spring Cloud 教程配套代码。
